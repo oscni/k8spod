@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: bash-container
-    image: bash:latest
+    image: docker.io/bash:latest
     command: ["sleep"]
     args: ["infinity"]
