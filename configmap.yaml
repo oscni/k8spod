@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap1
-data:
-  example.key: "example-value"
-  another.key: "another-value"
