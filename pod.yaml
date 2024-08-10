@@ -8,3 +8,9 @@ spec:
     image: docker.io/bash:latest
     command: ["sleep"]
     args: ["infinity"]
+    env:
+    - name: MY_ENV_VAR
+      valueFrom:
+        configMapKeyRef:
+          name: configmap1
+          key: MY_ENV_VAR
