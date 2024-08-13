@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: bash-pod2
+  name: bash-pod4
 spec:
   containers:
-  - name: bash-container2
+  - name: bash-container4
     image: docker.io/bash:latest
     command: ["sleep"]
     args: ["infinity"]
