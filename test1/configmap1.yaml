@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: configmap1
 data:
-  MY_ENV_VAR: "foobar1b"
+  MY_ENV_VAR: "foobar1c"
