@@ -14,9 +14,9 @@ spec:
         configMapKeyRef:
           name: configmap1
           key: MY_ENV_VAR
-      volumeMounts:
-        - name: data-volume
-          mountPath: /data
+    volumeMounts:
+      - name: data-volume
+        mountPath: /data
   volumes:
     - name: data-volume
       hostPath:
