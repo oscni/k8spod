@@ -2,6 +2,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: bash-pod1
+  annotations:
+    bind-mount-options: /var/local/data/sdb:Z
+    reboot-timestamp: 1723669919
 spec:
   containers:
   - name: bash-container1
