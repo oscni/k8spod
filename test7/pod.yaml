@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: bash-pod6b
+  name: bash-pod7
 spec:
   containers:
   - name: bash-container4
