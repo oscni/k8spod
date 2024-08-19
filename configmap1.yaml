@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: configmap1
-data:
-  MY_ENV_VAR: "foobar"
