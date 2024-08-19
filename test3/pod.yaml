@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: bash-pod2a
   annotations:
-    description: "Test1"
+    description: "Test3"
 spec:
   containers:
-  - name: bash-container2
+  - name: bash-container3
     image: docker.io/bash:latest
     command: ["sleep"]
     args: ["infinity"]
