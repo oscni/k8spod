@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: bash-pod2a
   annotations:
-    description: "Test3"
+    description: "Test4"
 spec:
   containers:
   - name: bash-container3
