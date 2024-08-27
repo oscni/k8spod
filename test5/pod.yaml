@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: bash-pod5a
+  name: bash-pod5b
   annotations:
-    description: "Test5"
+    description: "Test5b"
 spec:
   containers:
   - name: bash-container3
