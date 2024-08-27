@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: bash-container3
-    image: docker.io/bash:latest
+    image: docker.io/bash:5.2
     command: ["sleep"]
     args: ["infinity"]
     env:
